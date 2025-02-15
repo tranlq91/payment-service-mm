@@ -40,7 +40,6 @@ public class PaymentApp {
                 case "SCHEDULE" -> updateDueDate(Integer.parseInt(args[1]), args[2]);
                 case "SEARCH_BILL_BY_PROVIDER" -> searchBillByProvider(args[1]);
                 case "CREATE_BILL" -> makeBill(args[1], Integer.parseInt(args[2]), args[3], args[4]);
-                case "EXIT" -> System.out.println("Exiting the app. Goodbye!");
                 default -> System.out.println("Invalid choice. Please try again.");
             }
         } catch (Exception e) {
