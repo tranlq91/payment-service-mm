@@ -1,0 +1,50 @@
+[
+    {
+        "no": 1,
+        "amount": 10,
+        "provider": "WINMART",
+        "dueDate": "5/6/2025",
+        "state": "PAID",
+        "type": "MARKET"
+    },
+    {
+        "no": 2,
+        "amount": 20,
+        "provider": "SAWACO HCMC",
+        "dueDate": "30/01/2025",
+        "state": "PAID",
+        "type": "WATER"
+    },
+    {
+        "no": 3,
+        "amount": 50,
+        "provider": "ENV",
+        "dueDate": "30/11/2024",
+        "state": "PAID",
+        "type": "ELECTRIC"
+    },
+    {
+        "no": 5,
+        "amount": 40,
+        "provider": "VIVO",
+        "dueDate": "11/4/2024",
+        "state": "PAID",
+        "type": "ENTERTAINMENT"
+    },
+    {
+        "no": 7,
+        "amount": 40,
+        "provider": "LOTTE",
+        "dueDate": "11/4/2024",
+        "state": "NOT_PAID",
+        "type": "SUPER MARKET"
+    },
+    {
+        "no": 9,
+        "amount": 5,
+        "provider": "BIGC",
+        "dueDate": "5/6/2025",
+        "state": "NOT_PAID",
+        "type": "MARKET"
+    }
+]
