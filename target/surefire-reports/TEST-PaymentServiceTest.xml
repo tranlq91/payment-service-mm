@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PaymentServiceTest" time="0.021" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PaymentServiceTest" time="0.019" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="exec.mainClass" value="org.example.PaymentApp"/>
     <property name="java.specification.version" value="23"/>
@@ -7,14 +7,14 @@
     <property name="java.class.path" value="/Users/poro/Projects/payment-service-mm/target/test-classes:/Users/poro/Projects/payment-service-mm/target/classes:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/poro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/poro/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/poro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/poro/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/poro/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/poro/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar:/Users/poro/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar:/Users/poro/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/poro/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/poro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/poro/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="exec.args" value="LIST_BILL"/>
+    <property name="exec.args" value="SEARCH_BILL_BY_PROVIDER ENV"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="23"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/poro/Projects/payment-service-mm/target/surefire/surefirebooter-20250215155249842_3.jar /Users/poro/Projects/payment-service-mm/target/surefire 2025-02-15T15-52-49_764-jvmRun1 surefire-20250215155249842_1tmp surefire_0-20250215155249842_2tmp"/>
+    <property name="sun.java.command" value="/Users/poro/Projects/payment-service-mm/target/surefire/surefirebooter-20250215160448965_3.jar /Users/poro/Projects/payment-service-mm/target/surefire 2025-02-15T16-04-48_882-jvmRun1 surefire-20250215160448965_1tmp surefire_0-20250215160448965_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/poro/Projects/payment-service-mm/target/test-classes:/Users/poro/Projects/payment-service-mm/target/classes:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/poro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/poro/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/poro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/poro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/poro/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/poro/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/poro/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar:/Users/poro/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar:/Users/poro/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/poro/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/poro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/poro/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/poro/Projects/payment-service-mm/target/surefire/surefirebooter-20250215155249842_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/poro/Projects/payment-service-mm/target/surefire/surefirebooter-20250215160448965_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -60,11 +60,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testMakePaymentInsufficientBalance" classname="PaymentServiceTest" time="0.007">
+  <testcase name="testMakePaymentInsufficientBalance" classname="PaymentServiceTest" time="0.008">
     <system-out><![CDATA[Sorry! Not enough fund to proceed with payment.
 ]]></system-out>
   </testcase>
-  <testcase name="testMakePaymentWithPaidBilling" classname="PaymentServiceTest" time="0">
+  <testcase name="testMakePaymentWithPaidBilling" classname="PaymentServiceTest" time="0.001">
     <system-out><![CDATA[Sorry! This billing has been paid
 ]]></system-out>
   </testcase>
@@ -72,7 +72,7 @@
     <system-out><![CDATA[Payment successful. Remaining balance: $70
 ]]></system-out>
   </testcase>
-  <testcase name="testMakePaymentNegativeAmount" classname="PaymentServiceTest" time="0">
+  <testcase name="testMakePaymentNegativeAmount" classname="PaymentServiceTest" time="0.001">
     <system-out><![CDATA[Sorry! Not enough fund to proceed with payment.
 ]]></system-out>
   </testcase>
@@ -80,12 +80,12 @@
     <system-out><![CDATA[Invalid amount.
 ]]></system-out>
   </testcase>
-  <testcase name="testPaymentProcessing" classname="PaymentServiceTest" time="0.001">
+  <testcase name="testPaymentProcessing" classname="PaymentServiceTest" time="0">
     <system-out><![CDATA[Cash in successful. New balance: $200
 Payment successful. Remaining balance: $190
 ]]></system-out>
   </testcase>
-  <testcase name="testCashInPositiveAmount" classname="PaymentServiceTest" time="0">
+  <testcase name="testCashInPositiveAmount" classname="PaymentServiceTest" time="0.001">
     <system-out><![CDATA[Cash in successful. New balance: $150
 ]]></system-out>
   </testcase>

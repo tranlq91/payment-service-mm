@@ -1,6 +1,0 @@
-#surefire_0
-#Sat Feb 15 15:46:02 GMT+07:00 2025
-basedir=/Users/poro/Projects/payment-service
-exec.args=PAY 1 2 3
-exec.mainClass=org.example.PaymentApp
-localRepository=/Users/poro/.m2/repository

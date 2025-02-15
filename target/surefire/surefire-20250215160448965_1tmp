@@ -1,5 +1,5 @@
 #surefire
-#Sat Feb 15 15:52:49 GMT+07:00 2025
+#Sat Feb 15 16:04:48 GMT+07:00 2025
 childDelegation=false
 classPathUrl.0=/Users/poro/Projects/payment-service-mm/target/test-classes
 classPathUrl.1=/Users/poro/Projects/payment-service-mm/target/classes
@@ -28,7 +28,7 @@ mainCliOptions1=LOGGING_LEVEL_WARN
 mainCliOptions2=LOGGING_LEVEL_INFO
 mainCliOptions3=LOGGING_LEVEL_DEBUG
 mainCliOptions4=SHOW_ERRORS
-pluginPid=10171
+pluginPid=10503
 preferTestsFromInStream=false
 providerConfiguration=org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
 reportsDirectory=/Users/poro/Projects/payment-service-mm/target/surefire-reports
